@@ -1,23 +1,48 @@
 import Eitri from "eitri-bifrost";
 
 export default class Home {
-  async componentDidMount() {
-    console.log("This is an Eitri message");
+  BC = new BroadcastChannel("read-cart")
+  state = {
+    messageEvent: ''
   }
+
+  async componentDidMount() {
+    this.BC.onmessage = (messageEvent) => {
+      console.log(messageEvent.data)
+        this.setState({
+          messageEvent: messageEvent.data
+        })
+    }
+    console.log("This is an Eitri message");
+
+  }
+  
 
   makeRequest = async () => {
     try {
       const { data } = await Eitri.http.get(
-        "https://calindra.tech/eitri/product_list.json"
+        "https://calindra.tech/eitri/product_lisxxt.json"
       );
+      
+      console.log("Data obtained in HTTP call:", data);
 
-      // console.log("Data obtained in HTTP call:", data);
-      console.log("Data obtained in HTTP call:");
-      console.debug("Data obtained in HTTP call:");
-      console.info("Data obtained in HTTP call:");
-      console.warn("Data obtained in HTTP call:");
     } catch (error) {
       console.error("Erro ao consumir dados", error);
     }
-  };
+  }
+
+  openEitriApp = async () => {
+    console.log('12312312')
+    await Eitri.navigation.open({
+      slug: 'foundry-wedding-list',
+      initParams: {}
+    })
+  }
+
+  navigateTo = async (path) => {
+    await Eitri.navigation.navigate({
+      path
+    })
+  }
+  
 }
