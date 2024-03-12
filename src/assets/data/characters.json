@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Guts",
+    "series": "Berserk",
+    "weapon": "Dragonslayer",
+    "abilities": ["Immense strength", "Master swordsman", "Indomitable will"],
+    "status": "Alive",
+    "description": "Guts is the main protagonist of the manga series Berserk. He wields the massive sword Dragonslayer and possesses incredible strength and skill in combat. His unyielding determination and resilience make him a formidable berserker warrior."
+  },
+  {
+    "name": "Griffith",
+    "series": "Berserk",
+    "weapon": "Sword of the Falcon",
+    "abilities": [
+      "Exceptional leadership",
+      "Strategic genius",
+      "Supernatural charisma"
+    ],
+    "status": "Alive",
+    "description": "Griffith is a central character in the manga series Berserk. Once a close friend and leader of the Band of the Hawk, he becomes the powerful and enigmatic leader of the reborn Band of the Falcon. His ambition and charisma drive him to great heights, but also lead to devastating consequences."
+  },
+  {
+    "name": "Zodd",
+    "series": "Berserk",
+    "weapon": "Various",
+    "abilities": ["Immense strength", "Regeneration", "Transformation"],
+    "status": "Alive",
+    "description": "Zodd, also known as Nosferatu Zodd, is a powerful apostle in the manga series Berserk. He is known for his immense strength, regenerative abilities, and his ability to transform into a more monstrous form. Zodd is a formidable opponent who relishes in combat and seeks powerful adversaries."
+  },
+   {
+      "name": "Casca",
+      "series": "Berserk",
+      "weapon": "Sword",
+      "abilities": ["Skilled swordswoman", "Tactical prowess", "Willpower"],
+      "status": "Alive (Restored)",
+      "description": "Casca is a key character in the manga series Berserk. Initially a member of the Band of the Hawk and love interest of Guts, she suffers traumatic events that leave her mentally and emotionally scarred. Despite her challenges, she possesses considerable skill in combat and resilience."
+    },
+    {
+      "name": "Skull Knight",
+      "series": "Berserk",
+      "weapon": "Sword of Resonance",
+      "abilities": ["Master swordsman", "Magic manipulation", "Immortality"],
+      "status": "Undead",
+      "description": "The Skull Knight is a mysterious and enigmatic character in the manga series Berserk. Clad in armor and riding a skeletal horse, he wields the Sword of Resonance and possesses formidable combat skills. His true identity and motives remain shrouded in mystery."
+    },
+    {
+      "name": "Wyald",
+      "series": "Berserk",
+      "weapon": "Halberd",
+      "abilities": ["Enhanced strength", "Agility", "Berserker rage"],
+      "status": "Deceased",
+      "description": "Wyald is a powerful apostle and mercenary in the manga series Berserk. Known for his savage nature and brutal methods, he revels in combat and destruction. Wyald's encounter with Guts and the Band of the Hawk leads to a fierce battle with tragic consequences."
+    }
+]

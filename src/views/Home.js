@@ -14,22 +14,24 @@ export default class Home {
         })
     }
     console.log("This is an Eitri message");
-
+    await this.makeRequest()
   }
-  
 
   makeRequest = async () => {
     try {
       const { data } = await Eitri.http.get(
-        "https://calindra.tech/eitri/product_lisxxt.json"
+        "https://calindra.tech/eitri/product_list.json"
       );
       
       console.log("Data obtained in HTTP call:", data);
 
     } catch (error) {
       console.error("Erro ao consumir dados", error);
+      console.log(123)
     }
   }
+
+
 
   openEitriApp = async () => {
     console.log('12312312')
@@ -44,5 +46,4 @@ export default class Home {
       path
     })
   }
-  
 }

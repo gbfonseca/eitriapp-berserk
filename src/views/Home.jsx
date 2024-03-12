@@ -26,7 +26,7 @@
       </Text>
       <Text fontSize="big" fontWeight="bold">
 
-      {this.state.messageEvent.data || 'No message'}
+      {/* {this.state.messageEvent.data || 'No message'} */}
       </Text>
 
     </View>
@@ -43,7 +43,14 @@
       <Button
         wide
         label="Personagens"
-        onPress={() => this.navigateTo("/Characters")}
+        onPress={() => this.navigateTo("/Characters/Characters")}
+      />
+    </View>
+    <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
+      <Button
+        wide
+        label="Capítulo 1"
+        onPress={() => this.navigateTo("/Chapters/ChapterOne/ChapterOne")}
       />
     </View>
     <View paddingHorizontal="small" paddingTop="small" marginBottom="large">

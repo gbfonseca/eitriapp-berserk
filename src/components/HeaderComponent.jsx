@@ -1,12 +1,11 @@
 import Eitri from "eitri-bifrost";
-import ArrowLeft from '../assets/images/arrow_left.png'
-export default function HeaderComponent() {
+export default function HeaderComponent(props) {
   onBackClick = () => {
     Eitri.close();
   };
 
   return (
-    <View backgroundColor="gradient-01">
+    <View backgroundColor="gradient-02">
       <View topInset />
       <View
         direction="row"
@@ -16,7 +15,7 @@ export default function HeaderComponent() {
       >
         <Touchable width={50} onPress={onBackClick}>
           <Image
-            src={ArrowLeft}
+            src={'assets/images/arrow_left.png'}
             cover
             width={40}
           />
@@ -28,7 +27,7 @@ export default function HeaderComponent() {
           fontWeight="bold"
           fontSize="small"
         >
-          Meet Eitri!
+          {props.title || 'Meet Eitri!'}
         </Text>
       </View>
     </View>
