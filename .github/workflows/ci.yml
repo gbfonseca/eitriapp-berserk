@@ -21,6 +21,10 @@ jobs:
           BRANCH_NAME: ${{ github.head_ref || github.ref_name }} 
           EITRI_CLI_CLIENT_SECRET: ${{secrets.EITRI_CLI_CLIENT_SECRET}}
           EITRI_CLI_CLIENT_ID: ${{secrets.EITRI_CLI_CLIENT_ID}}
+          ENVIRONMENT_ID: ${{secrets.ENVIRONMENT_ID}}
+      - run: export EITRI_CLI_CLIENT_SECRET=${{secrets.EITRI_CLI_CLIENT_SECRET}}
+      - run: export  EITRI_CLI_CLIENT_ID=${{secrets.EITRI_CLI_CLIENT_ID}}
+      - run: export ENVIRONMENT_ID=${{secrets.ENVIRONMENT_ID}}
       - run: npm i -g eitri-cli
       - run: node bump-release.js
       - run: eitri push-version
