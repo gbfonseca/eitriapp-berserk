@@ -1,7 +1,7 @@
 import Eitri from "eitri-bifrost";
 export default function HeaderComponent(props) {
   onBackClick = () => {
-    Eitri.close();
+    Eitri.navigation.back()
   };
 
   return (
@@ -14,10 +14,12 @@ export default function HeaderComponent(props) {
         padding="nano"
       >
         <Touchable width={50} onPress={onBackClick}>
-          <Image
-            src={'assets/images/arrow_left.png'}
+          
+           <Image
+            src={require('../assets/images/arrow_left.png')}
             cover
             width={40}
+            height={40}
           />
         </Touchable>
         <Text

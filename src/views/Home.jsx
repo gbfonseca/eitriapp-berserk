@@ -2,18 +2,21 @@
   topInset
   bottomInset
   statusBarTextColor="dark"
+  // backgroundImage={require("../assets/images/bg.jpg")} 
 >
   <View>
     <HeaderComponent />
 
     <Image
       width="100%"
+      height={320}
+      maxWidth={430}
       cover
       src={
         "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/cfae4787c40f3f83ff92dec065e81cbd.jpg"
       }
     />
-
+    
     <View paddingHorizontal="small" paddingTop="nano" direction="column">
       <View justifyContent="center" alignItems="center">
         <Text fontSize="big" fontWeight="bold">
@@ -27,6 +30,7 @@
       <Text fontSize="big" fontWeight="bold">
 
       {/* {this.state.messageEvent.data || 'No message'} */}
+      
       </Text>
 
     </View>

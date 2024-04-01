@@ -5,6 +5,8 @@ export default function Characters(props) {
     <Window>
       <HeaderComponent title="Personagens" />
       <View direction="column">
+        <Image src={require('../../assets/images/Femto.png')} width={120} />
+
         {/* <View>
 
         <Image src={Femto} width={120} />

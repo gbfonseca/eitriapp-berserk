@@ -1,20 +1,12 @@
 import Eitri from "eitri-bifrost";
-
+import Femto from '../assets/images/Femto.png'
 export default class Home {
-  BC = new BroadcastChannel("read-cart")
   state = {
     messageEvent: ''
   }
 
   async componentDidMount() {
-    this.BC.onmessage = (messageEvent) => {
-      console.log(messageEvent.data)
-        this.setState({
-          messageEvent: messageEvent.data
-        })
-    }
-    console.log("This is an Eitri message");
-    await this.makeRequest()
+    console.info("This is an Eitri message");
   }
 
   makeRequest = async () => {
@@ -22,7 +14,7 @@ export default class Home {
       const { data } = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
       );
-      
+
       console.log("Data obtained in HTTP call:", data);
 
     } catch (error) {

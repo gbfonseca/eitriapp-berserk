@@ -1,0 +1,9 @@
+appId: com.eitriplayground
+---
+- launchApp
+- tapOn: "DeepLink"
+- tapOn: "https://"
+- inputText: "https://api.eitri.tech/workspace/share/563520cf-6d41-4415-bf63-6b23038cb82c"
+- scrollUntilVisible:
+    element: "Personagens"
+- tapOn: "Personagens"
