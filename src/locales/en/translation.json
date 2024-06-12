@@ -1,0 +1,59 @@
+{
+    "splash": {
+        "title": "Unlock Your Business Potential",
+        "button": "Get Started Now ->"
+    },
+    "start": {
+        "title": "Which store shall we transform now?",
+        "placeholder": "yourstore.com",
+        "redo": "Redo",
+        "button": "Connect Store"
+    },
+    "customerInfo": {
+        "title": "Tell us a bit about yourself",
+        "placeholderName": "Name",
+        "placeholderEmail": "Email",
+        "button": "Proceed"
+    },
+    "colorLoader": {
+        "loadingTitle": "Analyzing Design System...",
+        "loadingSubtitle": "Our AI is assembling color sets.",
+        "title": "Colors discovered by AI:",
+        "option": "Option",
+        "colorPaletteTitle": "Customize the color palette",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "auxiliaryColor": "Auxiliary Color",
+        "textColor": "Text Color",
+        "backgroundColor": "Background Color",
+        "button": "Next"
+    },
+    "imageBanner": {
+        "title": "Images",
+        "subtitle": "Time to choose the function of some of them:",
+        "select": "Select...",
+        "logo": "Logo",
+        "mainBanner": "Main Banner",
+        "promoBanner": "Promo Banner",
+        "ignore": "Ignore",
+        "button": "Next"
+    },
+    "categorySelection": {
+        "title": "Category Analysis",
+        "subtitle": "Choose your featured categories from your VTEX store",
+        "categoryTitle": "Category Title",
+        "addCategory": "Add Category",
+        "all": "All",
+        "category": "Category",
+        "subCategory": "Subcategory",
+        "next": "Proceed"
+    },
+    "buildingApp": {
+        "title": "Building Your Native App",
+        "message1": "Compiling store theme",
+        "message2": "Setting up licensing",
+        "message3": "Configuring store runtime",
+        "message4": "Publishing store apps",
+        "readQrCode": "Scan the QRCode of your Native App"
+    }
+}

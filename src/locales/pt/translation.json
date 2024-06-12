@@ -1,0 +1,59 @@
+{
+    "splash": {
+        "title": "Desbloqueie o potencial do seu negócio",
+        "button": "Começar agora ->"
+    },
+    "start": {
+        "title": "Qual loja iremos transformar agora?",
+        "placeholder": "sualoja.com.br",
+        "redo": "Refazer",
+        "button": "Conectar loja"
+    },
+    "customerInfo": {
+        "title": "Conte um pouco sobre você",
+        "placeholderName": "Nome",
+        "placeholderEmail": "Email",
+        "button": "Prosseguir"
+    },
+    "colorLoader": {
+        "loadingTitle": "Analisando Design System...",
+        "loadingSubtitle": "Nossa IA está montando conjuntos de cores.",
+        "title": "Cores descobertas pela IA:",
+        "option": "Opção",
+        "colorPaletteTitle": "Cutomize a paleta de cor",
+        "primary": "Primária",
+        "secondary": "Secundária",
+        "auxiliaryColor": "Cor auxiliar",
+        "textColor": "Cor do texto",
+        "backgroundColor": "Cor do fundo",
+        "button": "Avançar"
+    },
+    "imageBanner": {
+        "title": "Imagens",
+        "subtitle": "Hora de escolher a função de algumas delas:",
+        "select": "Selecione...",
+        "logo": "Logo",
+        "mainBanner": "Banner principal",
+        "promoBanner": "Banner adicional",
+        "ignore": "Ignorar",
+        "button": "Avançar"
+    },
+    "categorySelection": {
+        "title": "Análise das categorias",
+        "subtitle": "Escolha suas categorias em destaque da sua loja VTEX",
+        "categoryTitle": "Título da categoria",
+        "addCategory": "Adicionar categoria",
+        "all": "Todas",
+        "category": "Categoria",
+        "subCategory": "Subcategoria",
+        "next": "Prosseguir"
+    },
+    "buildingApp": {
+        "title": "Construindo Seu Aplicativo Nativo",
+        "message1": "Compilando o tema da loja",
+        "message2": "Configurando licenciamento",
+        "message3": "Configurando o runtime da loja",
+        "message4": "Publicando aplicativos da loja",
+        "readQrCode": "Leia o QRCode do seu Aplicativo Nativo"
+    }
+}

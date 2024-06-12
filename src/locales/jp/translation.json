@@ -1,0 +1,59 @@
+{
+    "splash": {
+        "title": "ビジネスの可能性を解き放つ",
+        "button": "今すぐ始める ->"
+    },
+    "start": {
+        "title": "次はどの店舗を変革しますか？",
+        "placeholder": "yourstore.com",
+        "redo": "やり直し",
+        "button": "ストアに接続"
+    },
+    "customerInfo": {
+        "title": "あなた自身について少し教えてください",
+        "placeholderName": "名前",
+        "placeholderEmail": "メールアドレス",
+        "button": "続行"
+    },
+    "colorLoader": {
+        "loadingTitle": "デザインシステムを分析中...",
+        "loadingSubtitle": "AIがカラーパレットを組み立てています。",
+        "title": "AIによって発見された色：",
+        "option": "オプション",
+        "colorPaletteTitle": "カラーパレットをカスタマイズ",
+        "primary": "プライマリー",
+        "secondary": "セカンダリー",
+        "auxiliaryColor": "補助色",
+        "textColor": "テキストの色",
+        "backgroundColor": "背景色",
+        "button": "次へ"
+    },
+    "imageBanner": {
+        "title": "画像",
+        "subtitle": "いくつかの機能を選択する時が来ました：",
+        "select": "選択...",
+        "logo": "ロゴ",
+        "mainBanner": "メインバナー",
+        "promoBanner": "プロモバナー",
+        "ignore": "無視",
+        "button": "次へ"
+    },
+    "categorySelection": {
+        "title": "カテゴリ分析",
+        "subtitle": "VTEXストアから注目のカテゴリを選択してください",
+        "categoryTitle": "カテゴリのタイトル",
+        "addCategory": "カテゴリを追加",
+        "all": "全て",
+        "category": "カテゴリ",
+        "subCategory": "サブカテゴリ",
+        "next": "続行"
+    },
+    "buildingApp": {
+        "title": "ネイティブアプリを構築中",
+        "message1": "ストアテーマをコンパイル中",
+        "message2": "ライセンスを設定中",
+        "message3": "ストアのランタイムを構成中",
+        "message4": "ストアアプリを公開中",
+        "readQrCode": "ネイティブアプリのQRコードをスキャン"
+    }
+}

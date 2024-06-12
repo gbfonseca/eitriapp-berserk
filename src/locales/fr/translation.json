@@ -1,0 +1,59 @@
+{
+    "splash": {
+        "title": "Libérez le potentiel de votre entreprise",
+        "button": "Commencez maintenant ->"
+    },
+    "start": {
+        "title": "Quel magasin allons-nous transformer maintenant ?",
+        "placeholder": "votreboutique.com",
+        "redo": "Recommencer",
+        "button": "Connecter la boutique"
+    },
+    "customerInfo": {
+        "title": "Parlez-nous un peu de vous",
+        "placeholderName": "Nom",
+        "placeholderEmail": "Email",
+        "button": "Continuer"
+    },
+    "colorLoader": {
+        "loadingTitle": "Analyse du système de design...",
+        "loadingSubtitle": "Notre IA assemble des ensembles de couleurs.",
+        "title": "Couleurs découvertes par l'IA :",
+        "option": "Option",
+        "colorPaletteTitle": "Personnaliser la palette de couleurs",
+        "primary": "Primaire",
+        "secondary": "Secondaire",
+        "auxiliaryColor": "Couleur auxiliaire",
+        "textColor": "Couleur du texte",
+        "backgroundColor": "Couleur de fond",
+        "button": "Suivant"
+    },
+    "imageBanner": {
+        "title": "Images",
+        "subtitle": "Il est temps de choisir la fonction de certaines d'entre elles :",
+        "select": "Sélectionner...",
+        "logo": "Logo",
+        "mainBanner": "Bannière principale",
+        "promoBanner": "Bannière promo",
+        "ignore": "Ignorer",
+        "button": "Suivant"
+    },
+    "categorySelection": {
+        "title": "Analyse des catégories",
+        "subtitle": "Choisissez vos catégories phares de votre boutique VTEX",
+        "categoryTitle": "Titre de la catégorie",
+        "addCategory": "Ajouter une catégorie",
+        "all": "Tous",
+        "category": "Catégorie",
+        "subCategory": "Sous-catégorie",
+        "next": "Continuer"
+    },
+    "buildingApp": {
+        "title": "Création de votre application native",
+        "message1": "Compilation du thème de la boutique",
+        "message2": "Mise en place des licences",
+        "message3": "Configuration du runtime de la boutique",
+        "message4": "Publication des applications de la boutique",
+        "readQrCode": "Scannez le QRCode de votre application native"
+    }
+}
