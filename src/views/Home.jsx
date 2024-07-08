@@ -1,9 +1,13 @@
 import Eitri from "eitri-bifrost";
+import Growthbook from "../service/Growthbook";
+
 
 export default function Home(props) {
-
+  const growthbook = new Growthbook()
 
   useEffect(() => {
+    growthbook.send()
+    growthbook.setup()
   }, []);
 
   const makeRequest = async () => {
@@ -63,7 +67,10 @@ export default function Home(props) {
           <Text fontSize="small" fontWeight="bold">
             By: Kentaro Miura
           </Text>
-         </View>
+          <Text fontSize="big" fontWeight="bold">
+            {/* {state.messageEvent.data || 'No message'} */}
+          </Text>
+        </View>
         <Text
           wide
           paddingHorizontal="small"
@@ -93,7 +100,13 @@ export default function Home(props) {
             onPress={() => navigateTo("/Chapters/ChapterOne/ChapterOne")}
           />
         </View>
-        
+        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
+          <Button
+            wide
+            label="Checkout"
+            onPress={() => navigateTo(`/Checkout/${growthbook.checkoutPage}/${growthbook.checkoutPage}`)}
+          />
+        </View>
         <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
           <Button wide label="Abrir Eitri-App" onPress={() => openEitriApp()} />
         </View>
@@ -101,4 +114,3 @@ export default function Home(props) {
     </Window>
   );
 }
-s

@@ -1,7 +1,7 @@
 import Eitri from "eitri-bifrost";
 import ArrowLeft from '../assets/images/arrow_left.png'
 export default function HeaderComponent(props) {
-  const onBackClick = () => {
+  onBackClick = () => {
     Eitri.navigation.back()
   };
 
