@@ -1,16 +1,18 @@
 import Eitri from "eitri-bifrost";
 import Growthbook from "../service/Growthbook";
-
-
+import HeaderComponent from '../components/HeaderComponent'
 export default function Home(props) {
   const growthbook = new Growthbook()
 
   useEffect(() => {
     growthbook.send()
     growthbook.setup()
+
+    fetchData()
+
   }, []);
 
-  const makeRequest = async () => {
+  const fetchData = async () => {
     try {
       const { data } = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
@@ -22,15 +24,7 @@ export default function Home(props) {
       console.log(123);
     }
   };
-
-  const openEitriApp = async () => {
-    console.log("12312312");
-    await Eitri.navigation.open({
-      slug: "foundry-wedding-list",
-      initParams: {},
-    });
-  };
-
+  
   const navigateTo = async (path) => {
     await Eitri.navigation.navigate({
       path,
@@ -45,7 +39,7 @@ export default function Home(props) {
       // backgroundImage={require("../assets/images/bg.jpg")}
     >
       <View>
-        <HeaderComponent />
+        <HeaderComponent title="Home" />
 
         <Image
           width="100%"
@@ -84,9 +78,6 @@ export default function Home(props) {
           criatura.
         </Text>
         <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
-          <Button wide label="Make Request" onPress={makeRequest} />
-        </View>
-        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
           <Button
             wide
             label="Personagens"
@@ -96,19 +87,9 @@ export default function Home(props) {
         <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
           <Button
             wide
-            label="Capítulo 1"
-            onPress={() => navigateTo("/Chapters/ChapterOne/ChapterOne")}
-          />
-        </View>
-        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
-          <Button
-            wide
             label="Checkout"
             onPress={() => navigateTo(`/Checkout/${growthbook.checkoutPage}/${growthbook.checkoutPage}`)}
           />
-        </View>
-        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
-          <Button wide label="Abrir Eitri-App" onPress={() => openEitriApp()} />
         </View>
       </View>
     </Window>

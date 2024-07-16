@@ -11,5 +11,11 @@ module.exports = {
     // "eitri-luminus": "@cea-components:1.0.5",
     "eitri-luminus": "1.40.5",
     "eitri-bifrost": "2.0.0",
-    "type": "module"
+    "eitri-commons": "1.0.0",
+    "type": "module",
+    "eitri-app-dependencies": {
+        "growthbook": {
+            version: '0.36.0'
+        }
+    }
 }
