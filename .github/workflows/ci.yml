@@ -51,7 +51,7 @@ jobs:
 
       - name: Install Android dependencies
         run: |
-          sdkmanager --install "platform-tools" "platforms;android-29" "build-tools;29.0.3" "system-images;android-29;default;armeabi-v7a" "emulator" "cmdline-tools;latest"
+          sdkmanager --install "platform-tools" "platforms;android-29" "build-tools;29.0.3" "system-images;android-31;default;arm64-v8a" "emulator" "cmdline-tools;latest"
           sdkmanager --list
 
       - name: Add Android SDK to PATH
@@ -66,7 +66,7 @@ jobs:
           emulator -version
 
       - name: Create AVD
-        run: echo "no" | avdmanager create avd -n test -k "system-images;android-29;default;armeabi-v7a" --device "pixel"
+        run: echo "no" | avdmanager create avd -n test -k "system-images;android-31;default;arm64-v8a" --device "pixel"
 
       - name: Launch emulator
         run: |
