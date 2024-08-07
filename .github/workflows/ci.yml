@@ -66,7 +66,8 @@ jobs:
           emulator -version
 
       - name: Create AVD
-        run: echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel"
+        run: |
+          echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel"
 
       - name: Launch emulator
         run: |
@@ -99,7 +100,10 @@ jobs:
           export PATH="$PATH":"$HOME/.maestro/bin"
       - name: Install Playground
         run: |
-          adb install ./eitri-playground.apk
+          sleep 60
+      - name: Install Playground
+        run: |
+          adb install eitri-playground.apk
       - name: Run Maestro Tests
         run: |
           maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
