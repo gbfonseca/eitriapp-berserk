@@ -1,0 +1,10 @@
+appId: com.eitriplayground
+---
+- launchApp
+- scrollUntilVisible:
+    element: "eitriapp-berserk"
+- tapOn: "eitriapp-berserk"
+- scrollUntilVisible:
+    element: "Personagens"
+- tapOn: "Personagens"
+- assertVisible: "Guts"

@@ -1,6 +1,7 @@
 import Eitri from "eitri-bifrost";
 import Growthbook from "../service/Growthbook";
 import HeaderComponent from '../components/HeaderComponent'
+
 export default function Home(props) {
   const growthbook = new Growthbook()
 
@@ -30,6 +31,7 @@ export default function Home(props) {
       path,
     });
   };
+  
 
   return (
     <Window
@@ -40,6 +42,8 @@ export default function Home(props) {
     >
       <View>
         <HeaderComponent title="Home" />
+
+
 
         <Image
           width="100%"
