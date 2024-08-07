@@ -67,7 +67,7 @@ jobs:
 
       - name: Create AVD
         run: |
-          echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel" -c 2G
+          echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel" --sdcard 1024M
 
       - name: Launch emulator
         run: |
