@@ -82,10 +82,24 @@ jobs:
             sleep 1
           done
 
-      - run: wget https://cdn.83io.com.br/artifacts/eitri-playground.apk
-      - run: DEVICE_ID=$(adb devices | grep 'emulator' | awk '{print $1}')
-      - run: ls -la
-      - run: adb install ./eitri-playground.apk
-      - run: curl -Ls "https://get.maestro.mobile.dev" | bash
-      - run: export PATH="$PATH":"$HOME/.maestro/bin"
-      - run: maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
+      - name: Donwload Playground
+        run: |
+          wget https://cdn.83io.com.br/artifacts/eitri-playground.apk
+      - name: Set DeviceId
+        run: |
+          export DEVICE_ID=$(adb devices | grep 'emulator' | awk '{print $1}')
+      - name: Print DeviceId
+        run: |
+          echo $DEVICE_ID
+      - name: Install Playground
+        run: |
+          adb install ./eitri-playground.apk
+      - name: Download and Install Maestro
+        run: |
+          curl -Ls "https://get.maestro.mobile.dev" | bash
+      - name: Set Maestro On Path
+        run: |
+          export PATH="$PATH":"$HOME/.maestro/bin"
+      - name: Run Maestro Tests
+        run: |
+          maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
