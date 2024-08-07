@@ -69,13 +69,17 @@ jobs:
 
       - name: Launch emulator
         run: |
-          emulator -avd test -no-window -no-audio -no-boot-anim -accel on &
+          nohup emulator -avd test -no-window -no-audio -no-boot-anim -accel on &
           adb wait-for-device
           adb shell input keyevent 82 &
 
       - name: Wait for emulator to boot
         run: |
-          adb wait-for-device shell getprop init.svc.bootanim | grep -m 1 stopped
+          bootanim=""
+          until [[ "$bootanim" =~ "stopped" ]]; do
+            bootanim=$(adb shell getprop init.svc.bootanim 2>&1)
+            sleep 1
+          done
 
       - run: wget https://cdn.83io.com.br/artifacts/eitri-playground.apk
       - run: DEVICE_ID=$(adb devices | grep 'emulator' | awk '{print $1}')
