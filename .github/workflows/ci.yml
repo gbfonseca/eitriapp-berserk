@@ -84,5 +84,8 @@ jobs:
 
       - run: wget https://cdn.83io.com.br/artifacts/eitri-playground.apk
       - run: DEVICE_ID=$(adb devices | grep 'emulator' | awk '{print $1}')
-      - run: adb install -s eitri-playground.apk
+      - run: ls -la
+      - run: adb install ./eitri-playground.apk
+      - run: curl -Ls "https://get.maestro.mobile.dev" | bash
+      - run: export PATH="$PATH":"$HOME/.maestro/bin"
       - run: maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
