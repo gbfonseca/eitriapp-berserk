@@ -93,7 +93,7 @@ jobs:
           echo $DEVICE_ID
       - name: Install Playground
         run: |
-          adb install ./eitri-playground.apk
+          adb install -t ./eitri-playground.apk
       - name: Download and Install Maestro
         run: |
           curl -Ls "https://get.maestro.mobile.dev" | bash
