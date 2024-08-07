@@ -106,4 +106,4 @@ jobs:
           adb install -f eitri-playground.apk
       - name: Run Maestro Tests
         run: |
-          maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
+          /home/.maestro/bin/maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
