@@ -53,7 +53,7 @@ jobs:
 
       - name: Launch emulator
         run: |
-          emulator -avd test -no-window -no-audio -no-boot-anim -accel on &
+          $ANDROID_HOME/emulator -avd test -no-window -no-audio -no-boot-anim -accel on &
           adb wait-for-device
           adb shell input keyevent 82 &
 
