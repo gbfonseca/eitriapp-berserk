@@ -11,6 +11,7 @@ env:
   EITRI_CLI_CLIENT_SECRET: ${{secrets.EITRI_CLI_CLIENT_SECRET}}
   EITRI_CLI_CLIENT_ID: ${{secrets.EITRI_CLI_CLIENT_ID}}
   ENVIRONMENT_ID: ${{secrets.ENVIRONMENT_ID}}
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 jobs:
   # build:
   #   runs-on: ubuntu-latest
