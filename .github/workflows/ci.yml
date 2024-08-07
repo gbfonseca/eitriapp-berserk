@@ -67,11 +67,11 @@ jobs:
 
       - name: Create AVD
         run: |
-          echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel" --sdcard 1024M
+          echo "no" | avdmanager create avd -n test -k "system-images;android-25;google_apis;armeabi-v7a" --device "pixel"
 
       - name: Launch emulator
         run: |
-          nohup emulator -avd test -no-window -no-audio -no-boot-anim -accel on &
+          nohup emulator -avd test -no-window -no-audio -no-boot-anim -memory 2048 -partition-size 2048 &
           adb wait-for-device
           adb shell input keyevent 82 &
 
