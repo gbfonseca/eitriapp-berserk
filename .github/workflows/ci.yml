@@ -26,6 +26,7 @@ jobs:
           script: ./test.sh
       - name: Save Image as Artifact
         uses: actions/upload-artifact@v3
+        if: always()
         with:
           name: exported-tests
           path: logs
