@@ -24,7 +24,6 @@ jobs:
         with:
           java-version: "17"
           distribution: "oracle"
-          cache: gradle
 
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
