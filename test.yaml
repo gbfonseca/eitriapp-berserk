@@ -5,7 +5,9 @@ appId: com.calindrasa
     delay: 5000
     text: "password"
 - inputText: "123456"
-- tapOn: "SIGN IN"
+- scrollUntilVisible: 
+    element: "Sign in"
+- tapOn:  "Sign in"
 - tapOn: "DApps"
 - scrollUntilVisible:
     element: "eitriapp-berserk"
