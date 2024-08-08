@@ -92,18 +92,14 @@ jobs:
       - name: Print DeviceId
         run: |
           echo $DEVICE_ID
-      - name: Download and Install Maestro
-        run: |
-          curl -Ls "https://get.maestro.mobile.dev" | bash
-      - name: Set Maestro On Path
-        run: |
-          export PATH="$PATH":"$HOME/.maestro/bin"
       - name: Wait 1 minute to emulator boot completly
         run: |
           sleep 60
       - name: Install Playground
         run: |
           adb install -f eitri-playground.apk
-      - name: Run Maestro Tests
+      - name: Download and Install Maestro and Run Test
         run: |
-          /home/.maestro/bin/maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
+          curl -Ls "https://get.maestro.mobile.dev" | bash
+          export PATH="$PATH":"$HOME/.maestro/bin"
+          $HOME/.maestro/bin/maestro --device $DEVICE_ID test test.yaml --env APP_PATH=eitri-playground.apk
