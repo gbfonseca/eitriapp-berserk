@@ -24,3 +24,8 @@ jobs:
         with:
           api-level: 29
           script: ./test.sh
+      - name: Save Image as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: exported-tests
+          path: /home/runner/.maestro/tests/
