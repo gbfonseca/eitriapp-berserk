@@ -15,7 +15,7 @@ jobs:
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 31
+          api-level: 29
           target: google_apis
           script: ./test.sh
       - name: Save Image as Artifact
