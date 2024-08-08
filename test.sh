@@ -15,4 +15,4 @@ adb install -f ./eitri-playground.apk
 export MAESTRO_CLI_NO_ANALYTICS=1
 
 # Run Maestro mobile tests
-maestro test flow.yaml
+maestro test test.yaml
