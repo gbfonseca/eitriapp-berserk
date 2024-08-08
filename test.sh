@@ -7,8 +7,6 @@ export PATH="$PATH":"$HOME/.maestro/bin"
 
 wget https://cdn.83io.com.br/artifacts/calindrasa.apk
 
-adb devices
-
 # Install the APK
 adb install -f ./calindrasa.apk
 

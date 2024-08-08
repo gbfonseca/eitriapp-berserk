@@ -22,5 +22,6 @@ jobs:
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
+          force-avd-creation: false
           api-level: 34
           script: ./test.sh
