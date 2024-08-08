@@ -3,7 +3,7 @@ appId: com.calindrasa
 - launchApp
 - tapOn: 
     delay: 5000
-    text: "password"
+    text: "Password"
 - inputText: "123456"
 - scrollUntilVisible: 
     element: "Sign in"
