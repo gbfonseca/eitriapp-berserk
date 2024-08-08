@@ -1,6 +1,9 @@
 appId: com.calindrasa
 ---
 - launchApp
+- waitForAnimationToEnd:
+    timeout: 10000
+- takeScreenshot: ./logs/MainScreen
 - tapOn: 
     delay: 5000
     text: "Password"
