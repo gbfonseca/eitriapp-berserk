@@ -23,7 +23,6 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 34
-          profile: pixel_5
           script: ./test.sh
       - name: Save Image as Artifact
         uses: actions/upload-artifact@v3
