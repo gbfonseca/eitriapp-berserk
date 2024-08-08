@@ -25,13 +25,13 @@ jobs:
           path: |
             ~/.android/avd/*
             ~/.android/adb*
+          key: avd-33
 
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 33
           target: google_apis
-          profile: Nexus 6
           arch: x86_64
           force-avd-creation: false
           avd-name: macOS-avd-arm64-v8a-31
