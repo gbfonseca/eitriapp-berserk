@@ -19,16 +19,11 @@ jobs:
           sudo udevadm trigger --name-match=kvm
           chmod +x test.sh
 
-      - name: set up JDK 11
-        uses: actions/setup-java@v3
-        with:
-          java-version: "17"
-          distribution: "oracle"
-
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 35
+          target: google_apis
           script: ./test.sh
       - name: Save Image as Artifact
         uses: actions/upload-artifact@v3
