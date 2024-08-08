@@ -8,7 +8,7 @@ export PATH="$PATH":"$HOME/.maestro/bin"
 wget https://cdn.83io.com.br/artifacts/calindrasa.apk
 
 # Install the APK
-adb install -f ./calindrasa.apk
+adb install ./calindrasa.apk
 
 export MAESTRO_CLI_NO_ANALYTICS=1
 
