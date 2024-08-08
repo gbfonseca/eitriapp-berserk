@@ -22,7 +22,7 @@ jobs:
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 29
+          api-level: 34
           profile: Nexus 6
           script: ./test.sh
       - name: Save Image as Artifact
