@@ -94,7 +94,7 @@ jobs:
           echo $DEVICE_ID
       - name: Wait 1 minute to emulator boot completly
         run: |
-          sleep 60
+          sleep 90
       - name: Install Playground
         run: |
           adb install -f eitri-playground.apk
