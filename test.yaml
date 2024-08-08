@@ -1,10 +1,16 @@
-appId: com.eitriplayground
+appId: com.calindrasa
 ---
 - launchApp
+- tapOn: Password
+- inputText: "123456"
+- tapOn: "SIGN IN"
+- tapOn: "DApps"
 - scrollUntilVisible:
     element: "eitriapp-berserk"
 - tapOn: "eitriapp-berserk"
 - scrollUntilVisible:
     element: "Personagens"
 - tapOn: "Personagens"
-- assertVisible: "Guts"
+- assertVisible:
+    text: "Guts"
+    enabled: true
