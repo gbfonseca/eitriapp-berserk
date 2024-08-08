@@ -1,7 +1,9 @@
 appId: com.calindrasa
 ---
 - launchApp
-- tapOn: Password
+- tapOn: 
+    delay: 2000
+    text: "Password"
 - inputText: "123456"
 - tapOn: "SIGN IN"
 - tapOn: "DApps"
