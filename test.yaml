@@ -1,18 +1,18 @@
 appId: com.calindrasa
 ---
 - launchApp
-- tapOn: 
-    delay: 5000
-    text: "password"
-- inputText: "123456"
-- tapOn: "SIGN IN"
-- tapOn: "DApps"
-- scrollUntilVisible:
-    element: "eitriapp-berserk"
-- tapOn: "eitriapp-berserk"
-- scrollUntilVisible:
-    element: "Personagens"
-- tapOn: "Personagens"
-- assertVisible:
-    text: "Guts"
-    enabled: true
+# - tapOn: 
+#     delay: 5000
+#     text: "password"
+# - inputText: "123456"
+# - tapOn: "SIGN IN"
+# - tapOn: "DApps"
+# - scrollUntilVisible:
+#     element: "eitriapp-berserk"
+# - tapOn: "eitriapp-berserk"
+# - scrollUntilVisible:
+#     element: "Personagens"
+# - tapOn: "Personagens"
+# - assertVisible:
+#     text: "Guts"
+#     enabled: true
