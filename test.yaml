@@ -1,4 +1,5 @@
-appId: com.calindrasa
+appId: com.eitriplayground
+# appId: com.calindrasa
 ---
 - launchApp
 - waitForAnimationToEnd:
