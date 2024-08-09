@@ -5,10 +5,10 @@
 curl -Ls "https://get.maestro.mobile.dev" | bash
 export PATH="$PATH":"$HOME/.maestro/bin"
 
-wget https://cdn.83io.com.br/artifacts/calindrasa.apk
+wget https://cdn.83io.com.br/artifacts/eitri-playground.apk
 
 # Install the APK
-adb install ./calindrasa.apk
+adb install ./eitri-playground.apk
 
 export MAESTRO_CLI_NO_ANALYTICS=1
 
