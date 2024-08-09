@@ -1,12 +1,9 @@
 # appId: com.eitriplayground
 appId: com.calindrasa
 ---
-- startRecording: ./logs/recording
 - launchApp
 - waitForAnimationToEnd:
     timeout: 10000
-- takeScreenshot: ./logs/MainScreen
-- stopRecording
 - tapOn: 
     delay: 5000
     text: "Password"
@@ -17,7 +14,9 @@ appId: com.calindrasa
 - tapOn: "DApps"
 - scrollUntilVisible:
     element: "eitriapp-berserk"
-- tapOn: "eitriapp-berserk"
+- tapOn: 
+    delay: 5000
+    text: "eitriapp-berserk"
 - scrollUntilVisible:
     element: "Personagens"
 - tapOn: "Personagens"

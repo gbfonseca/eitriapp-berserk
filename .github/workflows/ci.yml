@@ -25,14 +25,14 @@ jobs:
           path: |
             ~/.android/avd/*
             ~/.android/adb*
-          key: avd-33
+          key: avd-test
 
       - name: run tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 29
           target: google_apis
-          avd-name: test
+          avd-name: avd-test
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: ./test.sh
