@@ -1,10 +1,12 @@
-appId: com.eitriplayground
-# appId: com.calindrasa
+# appId: com.eitriplayground
+appId: com.calindrasa
 ---
+- startRecording: ./logs/recording
 - launchApp
 - waitForAnimationToEnd:
     timeout: 10000
 - takeScreenshot: ./logs/MainScreen
+- stopRecording
 - tapOn: 
     delay: 5000
     text: "Password"
