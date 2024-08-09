@@ -15,9 +15,13 @@ appId: com.calindrasa
 - tapOn: 
     delay: 5000
     text: "Berserk"
+- waitForAnimationToEnd:
+    timeout: 10000
 - scrollUntilVisible:
     element: "Personagens"
-- tapOn: "Personagens"
+- tapOn: 
+    delay: 5000
+    text: "Personagens"
 - assertVisible:
     text: "Guts"
     enabled: true
