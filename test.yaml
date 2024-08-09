@@ -12,11 +12,9 @@ appId: com.calindrasa
     element: "Sign in"
 - tapOn:  "Sign in"
 - tapOn: "DApps"
-- scrollUntilVisible:
-    element: "eitriapp-berserk"
 - tapOn: 
     delay: 5000
-    text: "eitriapp-berserk"
+    text: "Berserk"
 - scrollUntilVisible:
     element: "Personagens"
 - tapOn: "Personagens"
