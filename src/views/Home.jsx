@@ -1,12 +1,8 @@
 import Eitri from "eitri-bifrost";
-import Growthbook from "../service/Growthbook";
 import HeaderComponent from '../components/HeaderComponent'
 export default function Home(props) {
-  const growthbook = new Growthbook()
 
   useEffect(() => {
-    growthbook.send()
-    growthbook.setup()
 
     fetchData()
 
@@ -81,13 +77,6 @@ export default function Home(props) {
             wide
             label="Personagens"
             onPress={() => navigateTo("/Characters/Characters")}
-          />
-        </View>
-        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
-          <Button
-            wide
-            label="Checkout"
-            onPress={() => navigateTo(`/Checkout/${growthbook.checkoutPage}/${growthbook.checkoutPage}`)}
           />
         </View>
       </View>
