@@ -80,9 +80,6 @@ export default function Home(props) {
           />
         </View>
 
-
-
-
       </View>
     </Window>
   );
