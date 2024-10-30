@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.14...v1.0.15) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.15 ([034b18e](https://github.com/gbfonseca/eitriapp-berserk/commit/034b18e16bdfcb0458db7f7f054c6cb8e8dbbf00))
+
 ## [1.0.14](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.13...v1.0.14) (2024-10-30)
 
 

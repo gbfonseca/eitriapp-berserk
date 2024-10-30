@@ -9,7 +9,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "RELEASE_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//') node index.js"
+        "shell": "RELEASE_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//') node index.js"
       }
     ],
     [
