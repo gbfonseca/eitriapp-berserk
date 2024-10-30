@@ -79,6 +79,8 @@ export default function Home(props) {
             onPress={() => navigateTo("/Characters/Characters")}
           />
         </View>
+
+        
       </View>
     </Window>
   );
