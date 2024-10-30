@@ -1,0 +1,1 @@
+const fs=require('fs'),eitriConf=JSON.parse(fs.readFileSync(`../eitri-app.conf.js`,'utf8').replace(/module.exports = /,'').trim());eitriConf.version=process.env.RELEASE_VERSION;fs.writeFileSync(`../eitri-app.conf.js`,`module.exports = ${JSON.stringify(eitriConf,null,4)}`);
