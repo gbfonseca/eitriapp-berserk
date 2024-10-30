@@ -1,3 +1,111 @@
+## [1.0.24](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.23...v1.0.24) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.24 ([cc46e52](https://github.com/gbfonseca/eitriapp-berserk/commit/cc46e528f98146cf9b532141fb3eca9a910d352b))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([aa5a3b4](https://github.com/gbfonseca/eitriapp-berserk/commit/aa5a3b43ed90d9fac8eb5df5ddddb8bd5762e66e))
+* try bump 1.0.24 ([3572da9](https://github.com/gbfonseca/eitriapp-berserk/commit/3572da984daaf24dcc74ccc336f8153508b23fb6))
+* try bump 1.0.24 ([9b75d0d](https://github.com/gbfonseca/eitriapp-berserk/commit/9b75d0dc2556bb85addcfa6943f7c042a4fd19c5))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([aa5a3b4](https://github.com/gbfonseca/eitriapp-berserk/commit/aa5a3b43ed90d9fac8eb5df5ddddb8bd5762e66e))
+* try bump 1.0.24 ([3572da9](https://github.com/gbfonseca/eitriapp-berserk/commit/3572da984daaf24dcc74ccc336f8153508b23fb6))
+* try bump 1.0.24 ([9b75d0d](https://github.com/gbfonseca/eitriapp-berserk/commit/9b75d0dc2556bb85addcfa6943f7c042a4fd19c5))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([3572da9](https://github.com/gbfonseca/eitriapp-berserk/commit/3572da984daaf24dcc74ccc336f8153508b23fb6))
+* try bump 1.0.24 ([9b75d0d](https://github.com/gbfonseca/eitriapp-berserk/commit/9b75d0dc2556bb85addcfa6943f7c042a4fd19c5))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([9b75d0d](https://github.com/gbfonseca/eitriapp-berserk/commit/9b75d0dc2556bb85addcfa6943f7c042a4fd19c5))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([40b66b0](https://github.com/gbfonseca/eitriapp-berserk/commit/40b66b0de41d29ed7e552ada502bb6b5a099d101))
+* try bump 1.0.24 ([387fc52](https://github.com/gbfonseca/eitriapp-berserk/commit/387fc52550195282067996db3aadef1328b036ca))
+
+## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.23 ([173ba4a](https://github.com/gbfonseca/eitriapp-berserk/commit/173ba4a127ac156e05fed9fb296b88597868a307))
+
+## [1.0.22](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.21...v1.0.22) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.22 ([b12401a](https://github.com/gbfonseca/eitriapp-berserk/commit/b12401ab6ead9b4e959dae05207d811236814a55))
+
+## [1.0.21](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.20...v1.0.21) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.21 ([de2ca1b](https://github.com/gbfonseca/eitriapp-berserk/commit/de2ca1b3fb163897bab0352304f632679d820911))
+
+## [1.0.20](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.19...v1.0.20) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.20 ([077cf6a](https://github.com/gbfonseca/eitriapp-berserk/commit/077cf6a5dd4c3f5f77e325194266028e5dc91e7c))
+
+## [1.0.19](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.18...v1.0.19) (2024-10-30)
+
+
+### Bug Fixes
+
+* try bump 1.0.19 ([a8e44e8](https://github.com/gbfonseca/eitriapp-berserk/commit/a8e44e8b930bb885e3788b5c27e932ec3cfc034d))
+
+
 ## [1.0.23](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.22...v1.0.23) (2024-10-30)
 
 
