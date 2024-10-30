@@ -57,7 +57,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            {/* {state.messageEvent.data || 'No message'} */}
+            v1.0.37
           </Text>
         </View>
         <Text
