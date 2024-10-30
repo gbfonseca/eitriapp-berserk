@@ -36,7 +36,6 @@ export default function Home(props) {
       topInset
       bottomInset
       statusBarTextColor="dark"
-      // backgroundImage={require("../assets/images/bg.jpg")}
     >
       <View>
         <HeaderComponent title="Home" />
