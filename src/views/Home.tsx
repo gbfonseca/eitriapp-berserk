@@ -1,11 +1,18 @@
 import Eitri from "eitri-bifrost";
-import HeaderComponent from '../components/HeaderComponent'
+import HeaderComponent from "../components/HeaderComponent";
+import { View, Text, Image, Window, Button } from "eitri-luminus";
+import Logo from "../components/Logo";
+
+import { useEffect } from "react";
+
+function fake() {
+  return function (target) {};
+}
+
 export default function Home(props) {
-
+  const x = 1;
   useEffect(() => {
-
-    fetchData()
-
+    fetchData();
   }, []);
 
   const fetchData = async () => {
@@ -20,19 +27,15 @@ export default function Home(props) {
       console.log(123);
     }
   };
-  
-  const navigateTo = async (path) => {
+
+  const navigateTo = async (path: string) => {
     await Eitri.navigation.navigate({
       path,
     });
   };
 
   return (
-    <Window
-      topInset
-      bottomInset
-      statusBarTextColor="dark"
-    >
+    <Window topInset bottomInset statusBarTextColor="black">
       <View>
         <HeaderComponent title="Home" />
 
@@ -57,7 +60,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            v1.0.45
+            v1.0.45 com TS
           </Text>
         </View>
         <Text
@@ -79,8 +82,10 @@ export default function Home(props) {
             onPress={() => navigateTo("/Characters/Characters")}
           />
         </View>
-
       </View>
     </Window>
   );
+}
+function Fake() {
+  throw new Error("Function not implemented.");
 }
