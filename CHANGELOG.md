@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.45...v1.1.0) (2024-10-31)
+
+
+### Features
+
+* use typescript on home ([4876acd](https://github.com/gbfonseca/eitriapp-berserk/commit/4876acdcf8caa9da056fed59287f68f20ee87ef3))
+
 ## [1.0.45](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.44...v1.0.45) (2024-10-31)
 
 
