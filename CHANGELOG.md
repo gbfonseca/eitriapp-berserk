@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.1.0...v1.1.1) (2024-11-04)
+
+
+### Bug Fixes
+
+* remove unused ([0558cf4](https://github.com/gbfonseca/eitriapp-berserk/commit/0558cf4efadacb57e5694ec782de64232a0e7221))
+
 # [1.1.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.0.45...v1.1.0) (2024-10-31)
 
 
