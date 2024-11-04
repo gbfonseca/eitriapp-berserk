@@ -5,10 +5,6 @@ import Logo from "../components/Logo";
 
 import { useEffect } from "react";
 
-function fake() {
-  return function (target) {};
-}
-
 export default function Home(props) {
   const x = 1;
   useEffect(() => {
