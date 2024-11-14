@@ -1,6 +1,6 @@
 import Eitri from "eitri-bifrost";
 import HeaderComponent from "../components/HeaderComponent";
-import { View, Text, Image, Window, Button } from "eitri-luminus";
+import { View, Text, Image, Window, Button, HtmlRenderer } from "eitri-luminus";
 import Logo from "../components/Logo";
 
 import { useEffect } from "react";
@@ -16,8 +16,6 @@ export default function Home(props) {
       const { data } = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
       );
-
-      console.log("Data obtained in HTTP call:", data);
     } catch (error) {
       console.error("Erro ao consumir dados", error);
       console.log(123);
@@ -71,6 +69,7 @@ export default function Home(props) {
           nem tudo sai a seu favor, e ele recebe ajuda de uma fantástica
           criatura.
         </Text>
+
         <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
           <Button
             wide

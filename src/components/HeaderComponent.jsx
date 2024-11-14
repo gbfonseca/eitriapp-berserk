@@ -5,6 +5,9 @@ export default function HeaderComponent(props) {
     Eitri.navigation.back()
   };
 
+
+
+  
   return (
     <View backgroundColor="primary-900">
       <View topInset />

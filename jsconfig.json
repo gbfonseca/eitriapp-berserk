@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "ESNext",
-    "module": "CommonJS",
     "paths": {
+      "react/jsx-runtime": [
+        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
+      ],
       "eitri-bifrost": [
         "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
-      ],
-      "eitri-luminus": [
-        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
       ],
       "react": [
         "/tmp/eitriapp-berserk/node_modules/react"
       ],
-      "react/jsx-runtime": [
-        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime.js"
+      "eitri-luminus": [
+        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
       ]
     },
+    "target": "ESNext",
+    "module": "CommonJS",
     "jsx": "react-native",
-    "experimentalDecorators": true,
+    "resolveJsonModule": true
   },
   "include": [
     "./**/*"
