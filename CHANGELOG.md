@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.1.2...v1.2.0) (2024-12-10)
+
+
+### Features
+
+* testando versão quebrada de prod ([7e7ada2](https://github.com/gbfonseca/eitriapp-berserk/commit/7e7ada256ba01ca4044291150007e7204eb14ad6))
+
 ## [1.1.2](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.1.1...v1.1.2) (2024-11-14)
 
 
