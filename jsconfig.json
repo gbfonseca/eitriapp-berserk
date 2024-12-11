@@ -8,11 +8,11 @@
       "react/jsx-runtime": [
         "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
       ],
-      "eitri-bifrost": [
-        "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
-      ],
       "react": [
         "/tmp/eitriapp-berserk/node_modules/react"
+      ],
+      "eitri-bifrost": [
+        "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
       ]
     },
     "target": "ESNext",
