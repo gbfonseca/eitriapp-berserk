@@ -31,7 +31,6 @@ export default function Home(props) {
     <Window topInset bottomInset statusBarTextColor="black">
       <View>
         <HeaderComponent title="Home" />
-        {xpto}
         <Image
           width="100%"
           height={320}
