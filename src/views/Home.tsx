@@ -53,7 +53,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            v1.0.45 com TS
+            v1.2.1 com TS
           </Text>
         </View>
         <Text
