@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.2.1...v1.2.2) (2024-12-12)
+
+
+### Bug Fixes
+
+* error forced and test tag style on push-version ([67c7ee2](https://github.com/gbfonseca/eitriapp-berserk/commit/67c7ee2b4bd07563fbc002d233a60619c6c8dafc))
+
 ## [1.2.1](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.2.0...v1.2.1) (2024-12-11)
 
 
