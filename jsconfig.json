@@ -5,14 +5,14 @@
       "eitri-luminus": [
         "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
       ],
-      "react/jsx-runtime": [
-        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
-      ],
       "react": [
         "/tmp/eitriapp-berserk/node_modules/react"
       ],
       "eitri-bifrost": [
         "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
+      ],
+      "react/jsx-runtime": [
+        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
       ]
     },
     "target": "ESNext",
