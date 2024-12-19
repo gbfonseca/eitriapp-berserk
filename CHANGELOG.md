@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.2.5...v1.3.0) (2024-12-19)
+
+
+### Features
+
+* force 1.3.0 ([94b58c2](https://github.com/gbfonseca/eitriapp-berserk/commit/94b58c210af1647a742778e716eb1bc13ba7228b))
+
 ## [1.2.5](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.2.4...v1.2.5) (2024-12-19)
 
 
