@@ -4,7 +4,7 @@ module.exports = {
   "slug": "eitriapp-berserk",
   "eitri-luminus": "1.69.2",
   "eitri-bifrost": "2.0.0",
-  "eitri-commons": "1.0.0",
+  "eitri-commons": "2.1.2",
   "version": "1.2.4",
   "public-key": "65ae588e-3fb8-4545-9773-9b5bd8bb41e6",
   "applicationId": "749d6f6f-f10f-4448-b36e-9c484b1293b8",

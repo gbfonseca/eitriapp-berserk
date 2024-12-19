@@ -1,6 +1,6 @@
 import Eitri from "eitri-bifrost";
 import HeaderComponent from "../components/HeaderComponent";
-import { View, Text, Image, Window, Button, HtmlRenderer } from "eitri-luminus";
+import { View, Text, Image, Window, Button } from "eitri-luminus";
 import Logo from "../components/Logo";
 
 import { useEffect } from "react";
@@ -52,7 +52,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            v1.2.4 com TS
+            v1.2.5 com TS
           </Text>
         </View>
         <Text
@@ -78,7 +78,4 @@ export default function Home(props) {
       </View>
     </Window>
   );
-}
-function Fake() {
-  throw new Error("Function not implemented.");
 }
