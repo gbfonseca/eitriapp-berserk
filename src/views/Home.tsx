@@ -9,15 +9,15 @@ export default function Home(props) {
   useEffect(() => {
     fetchData();
     navigator.serviceWorker.getRegistrations().then((registrations) => {
-      for (const registration of registrations) {
-        Notification.requestPermission().then((result) => {
+      Notification.requestPermission().then((result) => {
+        for (const registration of registrations) {
           if (result === "granted") {
             registration.showNotification("Testando notificação", {
               body: "Olá mundo",
             });
           }
-        });
-      }
+        }
+      });
     });
   }, []);
 
