@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.4.1...v1.4.2) (2024-12-30)
+
+
+### Bug Fixes
+
+* notification ([3070595](https://github.com/gbfonseca/eitriapp-berserk/commit/3070595fcaf8db0aa6697186ca84be1307403e83))
+
 ## [1.4.1](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.4.0...v1.4.1) (2024-12-30)
 
 
