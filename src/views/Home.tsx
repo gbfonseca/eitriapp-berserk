@@ -62,7 +62,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            v1.3.0 com TS
+            v{window.__eitriAppConf.version} com TS
           </Text>
         </View>
         <Text
