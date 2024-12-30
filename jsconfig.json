@@ -2,14 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "eitri-luminus": [
+        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
+      ],
       "react": [
         "/tmp/eitriapp-berserk/node_modules/react"
       ],
       "react/jsx-runtime": [
         "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
-      ],
-      "eitri-luminus": [
-        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
       ],
       "eitri-bifrost": [
         "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"

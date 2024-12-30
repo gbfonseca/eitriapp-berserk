@@ -8,6 +8,17 @@ import { useEffect } from "react";
 export default function Home(props) {
   useEffect(() => {
     fetchData();
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (const registration of registrations) {
+        Notification.requestPermission().then((result) => {
+          if (result === "granted") {
+            registration.showNotification("Testando notificação", {
+              body: "Olá mundo",
+            });
+          }
+        });
+      }
+    });
   }, []);
 
   const fetchData = async () => {
@@ -28,7 +39,7 @@ export default function Home(props) {
   };
 
   return (
-    <Window topInset bottomInset statusBarTextColor="black">
+    <Window title="Homepage" topInset bottomInset statusBarTextColor="black">
       <View>
         <HeaderComponent title="Home" />
         <Image
@@ -40,7 +51,6 @@ export default function Home(props) {
             "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/cfae4787c40f3f83ff92dec065e81cbd.jpg"
           }
         />
-
         <View paddingHorizontal="small" paddingTop="nano" direction="column">
           <View justifyContent="center" alignItems="center">
             <Text fontSize="big" fontWeight="bold">
@@ -67,7 +77,6 @@ export default function Home(props) {
           nem tudo sai a seu favor, e ele recebe ajuda de uma fantástica
           criatura.
         </Text>
-
         <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
           <Button
             wide

@@ -9,7 +9,7 @@ export default function HeaderComponent(props) {
 
   
   return (
-    <View backgroundColor="primary-900">
+    <View backgroundColor="primary-500">
       <View topInset />
       <View
         direction="row"
