@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.3.0...v1.4.0) (2024-12-30)
+
+
+### Features
+
+* testing service-worker ([1767f8e](https://github.com/gbfonseca/eitriapp-berserk/commit/1767f8ef916e601c74235f63c54a0661a0f99d46))
+
 # [1.3.0](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.2.5...v1.3.0) (2024-12-19)
 
 
