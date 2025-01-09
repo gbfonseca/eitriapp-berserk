@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.4.2...v1.4.3) (2025-01-09)
+
+
+### Bug Fixes
+
+* service-worker inject ([61297ae](https://github.com/gbfonseca/eitriapp-berserk/commit/61297ae13a74230e17b150ce7d4a3b6aba5c4c73))
+
 ## [1.4.2](https://github.com/gbfonseca/eitriapp-berserk/compare/v1.4.1...v1.4.2) (2024-12-30)
 
 
