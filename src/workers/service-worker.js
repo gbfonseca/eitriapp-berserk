@@ -1,5 +1,5 @@
 const CACHE_NAME = 'my-cache-v1';
-const urlsToCache = ['/', '/index.html', '/static/js/bundle.js', 'https://calindra.tech/eitri/product_list.json', 'https://release.eitri.calindra.com.br/themes/852ff350-8d65-49cc-815e-12483b37d425/theme.css'];
+const urlsToCache = ['/asset-qualquer.svg',];
 
 self.addEventListener('install', (event) => {
     event.waitUntil(

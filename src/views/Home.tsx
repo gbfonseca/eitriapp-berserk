@@ -4,21 +4,11 @@ import { View, Text, Image, Window, Button } from "eitri-luminus";
 import Logo from "../components/Logo";
 
 import { useEffect } from "react";
+import NotificationService from "src/service/NotificationService";
 
 export default function Home(props) {
   useEffect(() => {
     fetchData();
-    navigator.serviceWorker.getRegistrations().then((registrations) => {
-      Notification.requestPermission().then((result) => {
-        for (const registration of registrations) {
-          if (result === "granted") {
-            registration.showNotification("Testando notificação", {
-              body: "Olá mundo",
-            });
-          }
-        }
-      });
-    });
   }, []);
 
   const fetchData = async () => {
@@ -62,7 +52,7 @@ export default function Home(props) {
             By: Kentaro Miura
           </Text>
           <Text fontSize="big" fontWeight="bold">
-            v{window.__eitriAppConf.version} com TS
+            v{(window as any).__eitriAppConf.version + " "} com TS
           </Text>
         </View>
         <Text
