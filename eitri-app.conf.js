@@ -11,5 +11,11 @@ module.exports = {
   "id": "a861465b-8bf5-416f-8599-90cdb95c6099",
   "organizationId": "cf5660ee-bf90-42cd-9a43-9d2c69ee3c89",
   "organization": {},
-  "type": "module"
+  "type": "module",
+  "eitri-app-dependencies": {
+    'yggdrasil': {
+      version: '0.1.17',
+      isEitriAppShared: true
+    },
+  }
 }

@@ -2,6 +2,7 @@ import Eitri from "eitri-bifrost";
 import HeaderComponent from "../components/HeaderComponent";
 import { View, Text, Image, Window, Button } from "eitri-luminus";
 import Logo from "../components/Logo";
+import { NordService } from "yggdrasil";
 
 import { useEffect } from "react";
 import NotificationService from "src/service/NotificationService";
@@ -16,6 +17,7 @@ export default function Home(props) {
       const { data } = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
       );
+      console.log(data)
     } catch (error) {
       console.error("Erro ao consumir dados", error);
       console.log(123);
@@ -30,7 +32,7 @@ export default function Home(props) {
 
   return (
     <Window title="Homepage" topInset bottomInset statusBarTextColor="black">
-      <View>
+      <View id="box">
         <HeaderComponent title="Home" />
         <Image
           width="100%"
