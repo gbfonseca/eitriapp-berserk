@@ -31,10 +31,10 @@ export default function Characters(props) {
                 
                 <View className="mb-4 flex flex-col">
                   <Text className="text-sm font-semibold text-base-content/70">
-                    Status: <span className="text-success">{character.status}</span>
+                    Status: <Text className="text-success">{character.status}</Text>
                   </Text>
                   <Text className="text-sm font-semibold text-base-content/70">
-                    Weapon: <span className="text-accent">{character.weapon}</span>
+                    Weapon: <Text className="text-accent">{character.weapon}</Text>
                   </Text>
                 </View>
 
