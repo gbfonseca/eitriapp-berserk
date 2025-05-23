@@ -84,9 +84,9 @@ export default function Home(props) {
         </View>
 
         {/* Version Info */}
-        <View className="px-4 py-4 text-center">
+        <View className="px-4 fixed bottom-0 right-0">
           <Text className="text-sm text-base-content/60">
-            v{(window as any).__eitriAppConf.version} with TypeScript
+            v{(window as any).__eitriAppConf.version}
           </Text>
         </View>
       </View>
