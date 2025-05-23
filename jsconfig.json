@@ -2,20 +2,20 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "react/jsx-runtime": [
-        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
-      ],
-      "yggdrasil": [
-        "/tmp/eitriapp-berserk/@types/yggdrasil/index.d.ts"
+      "react": [
+        "/tmp/eitriapp-berserk/node_modules/react"
       ],
       "eitri-luminus": [
         "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
       ],
-      "react": [
-        "/tmp/eitriapp-berserk/node_modules/react"
-      ],
       "eitri-bifrost": [
         "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
+      ],
+      "yggdrasil": [
+        "/tmp/eitriapp-berserk/@types/yggdrasil/index.d.ts"
+      ],
+      "react/jsx-runtime": [
+        "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
       ]
     },
     "target": "ESNext",

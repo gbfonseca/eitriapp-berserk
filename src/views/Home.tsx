@@ -28,7 +28,7 @@ export default function Home(props) {
 
   return (
     <Page title="Berserk" topInset bottomInset statusBarTextColor="white">
-      <View className="min-h-screen bg-base-300">
+      <View className="min-h-screen bg-base-100">
         <HeaderComponent title="Berserk" />
 
         {/* Hero Section */}
@@ -77,9 +77,9 @@ export default function Home(props) {
           </Button>
           <Button
             className="btn btn-secondary w-full"
-            onClick={() => navigateTo("/Scripts/Scripts")}
+            onClick={() => navigateTo("/chapters/ChapterOne")}
           >
-            Test Script
+            Chapter 1
           </Button>
         </View>
 

@@ -14,11 +14,11 @@ export default function Characters(props) {
       },
     }}>
       <HeaderComponent title="Characters" />
-      <View className="p-4 pt-8 min-h-screen mt-8">
+      <View className="p-4 pt-8 min-h-screen bg-base-100">
         
         <View className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {CharactersData.map(character => (
-            <Card key={character.name} className="bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <Card key={character.name} className="bg-base-200 shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <Image
                 className="w-full h-80 object-fill rounded-t-xl"
                 src={character.image}
