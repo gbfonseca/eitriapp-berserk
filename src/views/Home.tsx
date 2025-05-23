@@ -1,11 +1,8 @@
 import Eitri from "eitri-bifrost";
 import HeaderComponent from "../components/HeaderComponent";
-import { View, Text, Image, Window, Button } from "eitri-luminus";
+import { View, Text, Image, Page, Button } from "eitri-luminus";
 import Logo from "../components/Logo";
-import { NordService } from "yggdrasil";
-
 import { useEffect } from "react";
-import NotificationService from "src/service/NotificationService";
 
 export default function Home(props) {
   useEffect(() => {
@@ -17,10 +14,9 @@ export default function Home(props) {
       const { data } = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
       );
-      console.log(data)
+      console.log(data);
     } catch (error) {
       console.error("Erro ao consumir dados", error);
-      console.log(123);
     }
   };
 
@@ -31,52 +27,69 @@ export default function Home(props) {
   };
 
   return (
-    <Window title="Homepage" topInset bottomInset statusBarTextColor="black">
-      <View id="box">
-        <HeaderComponent title="Home" />
-        <Image
-          width="100%"
-          height={320}
-          maxWidth={430}
-          cover
-          src={
-            "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/cfae4787c40f3f83ff92dec065e81cbd.jpg"
-          }
-        />
-        <View paddingHorizontal="small" paddingTop="nano" direction="column">
-          <View justifyContent="center" alignItems="center">
-            <Text fontSize="big" fontWeight="bold">
-              Berserk
+    <Page title="Berserk" topInset bottomInset statusBarTextColor="white">
+      <View className="min-h-screen bg-base-300">
+        <HeaderComponent title="Berserk" />
+
+        {/* Hero Section */}
+        <View className="relative">
+          <Image
+            className="w-full h-[400px] object-cover"
+            src="https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/cfae4787c40f3f83ff92dec065e81cbd.jpg"
+          />
+          <View className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-base-300 to-transparent p-4">
+            <Text className="text-4xl font-bold mb-2 text-base-content">
+              BERSERK
             </Text>
-            <Logo />
+            <Text className="text-lg text-base-content/80">
+              By Kentaro Miura
+            </Text>
           </View>
-          <Text fontSize="small" fontWeight="bold">
-            By: Kentaro Miura
+        </View>
+
+        {/* Brand of Sacrifice */}
+        <View className="flex items-center justify-center py-8">
+          <Logo />
+        </View>
+
+        {/* Synopsis */}
+        <View className="px-4 py-6">
+          <Text className="text-xl font-bold mb-4 text-base-content">
+            Synopsis
           </Text>
-          <Text fontSize="big" fontWeight="bold">
-            v{(window as any).__eitriAppConf.version + " "} com TS
+          <Text className="text-base text-base-content/90 leading-relaxed">
+            In a world of darkness and despair, Guts, the "Black Swordsman,"
+            wields a massive sword with his mechanical arm. Marked by the Brand
+            of Sacrifice, he attracts demonic forces while seeking vengeance
+            against his former friend Griffith. His journey through a brutal
+            medieval world is one of survival, revenge, and the struggle against
+            fate itself.
           </Text>
         </View>
-        <Text
-          wide
-          paddingHorizontal="small"
-          paddingTop="small"
-          fontSize="small"
-        >
-          O misterioso Guts, o "Espadachim Negro", carrega em sua mão mecânica
-          uma enorme espada, e em seu pescoço uma estranha marca que atrai
-          forças demoníacas. Em sua busca por vingança contra um antigo inimigo,
-          nem tudo sai a seu favor, e ele recebe ajuda de uma fantástica
-          criatura.
-        </Text>
-        <View paddingHorizontal="small" paddingTop="small" marginBottom="large">
+
+        {/* Navigation Buttons */}
+        <View className="px-4 py-6 space-y-4">
           <Button
-            wide
-            label="Personagens"
-            onPress={() => navigateTo("/Characters/Characters")}
-          />
+            className="btn btn-primary w-full"
+            onClick={() => navigateTo("/Characters/Characters")}
+          >
+            Characters
+          </Button>
+          <Button
+            className="btn btn-secondary w-full"
+            onClick={() => navigateTo("/Scripts/Scripts")}
+          >
+            Test Script
+          </Button>
+        </View>
+
+        {/* Version Info */}
+        <View className="px-4 py-4 text-center">
+          <Text className="text-sm text-base-content/60">
+            v{(window as any).__eitriAppConf.version} with TypeScript
+          </Text>
         </View>
       </View>
-    </Window>
+    </Page>
   );
 }

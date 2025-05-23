@@ -1,37 +1,23 @@
 import Eitri from "eitri-bifrost";
 import ArrowLeft from '../assets/images/arrow_left.png'
+import {View, Text, Image} from 'eitri-luminus'
+
 export default function HeaderComponent(props) {
-  onBackClick = () => {
-    Eitri.navigation.back()
+  const onBackClick = () => {
+    Eitri.navigation.back(-1)
   };
 
-
-
-  
   return (
-    <View backgroundColor="primary-500">
-      <View topInset />
-      <View
-        direction="row"
-        justifyContent="start"
-        alignItems="center"
-        padding="nano"
-      >
-        <Touchable width={50} onPress={onBackClick}>
-           <Image
+    <View className="bg-primary">
+      <View className="h-4" /> {/* topInset equivalent */}
+      <View className="flex flex-row items-center justify-start p-2">
+        <View className="w-[50px] cursor-pointer" onClick={onBackClick}>
+          <Image
             src={ArrowLeft}
-            cover
-            width={40}
-            height={40}
+            className="w-10 h-10 object-cover"
           />
-        </Touchable>
-        <Text
-          wide
-          textAlign="left"
-          color="neutral-900"
-          fontWeight="bold"
-          fontSize="small"
-        >
+        </View>
+        <Text className="flex-1 text-left text-neutral-900 font-bold text-sm">
           {props.title || 'Meet Eitri!'}
         </Text>
       </View>

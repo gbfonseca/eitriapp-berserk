@@ -2,7 +2,7 @@ module.exports = {
   "name": "eitriapp-berserk",
   "title": "eitriapp-berserk",
   "slug": "eitriapp-berserk",
-  "eitri-luminus": "1.69.2",
+  "eitri-luminus": "2.1.3",
   "eitri-bifrost": "2.11.0",
   "eitri-commons": "2.1.2",
   "version": "1.4.3",

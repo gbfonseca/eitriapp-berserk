@@ -2,28 +2,31 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "eitri-bifrost": [
-        "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
-      ],
       "react/jsx-runtime": [
         "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
       ],
       "yggdrasil": [
         "/tmp/eitriapp-berserk/@types/yggdrasil/index.d.ts"
       ],
+      "eitri-luminus": [
+        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
+      ],
       "react": [
         "/tmp/eitriapp-berserk/node_modules/react"
       ],
-      "eitri-luminus": [
-        "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
+      "eitri-bifrost": [
+        "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
       ]
     },
     "target": "ESNext",
     "module": "CommonJS",
     "jsx": "react-native",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true
   },
   "include": [
-    "./**/*"
+    "./**/*",
+    "/tmp/eitriapp-berserk/@types"
   ]
 }
