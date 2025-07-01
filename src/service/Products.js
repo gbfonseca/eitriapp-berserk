@@ -8,3 +8,8 @@ export default class ProductService {
         return data;
     }
 }
+
+
+export const getProducts = async () => {
+    console.log("getProducts xxxxxxxxxx");
+};

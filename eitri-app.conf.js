@@ -17,5 +17,8 @@ module.exports = {
       version: '0.1.17',
       isEitriAppShared: true
     },
-  }
+    // 'liveshop': {
+    //   version: '2.0.0',
+    // }
+  },
 }

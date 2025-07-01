@@ -2,17 +2,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "yggdrasil": [
+        "/tmp/eitriapp-berserk/@types/yggdrasil/index.d.ts"
+      ],
+      "react": [
+        "/tmp/eitriapp-berserk/node_modules/react"
+      ],
       "react/jsx-runtime": [
         "/tmp/eitriapp-berserk/node_modules/react/jsx-dev-runtime"
       ],
       "eitri-luminus": [
         "/tmp/eitriapp-berserk/node_modules/eitri-app-components"
-      ],
-      "react": [
-        "/tmp/eitriapp-berserk/node_modules/react"
-      ],
-      "yggdrasil": [
-        "/tmp/eitriapp-berserk/@types/yggdrasil/index.d.ts"
       ],
       "eitri-bifrost": [
         "/tmp/eitriapp-berserk/node_modules/eitri-bifrost"
@@ -23,7 +23,7 @@
     "jsx": "react-native",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "checkJs": true
+    "checkJs": false
   },
   "include": [
     "./**/*",

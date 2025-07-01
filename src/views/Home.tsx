@@ -3,18 +3,40 @@ import HeaderComponent from "../components/HeaderComponent";
 import { View, Text, Image, Page, Button } from "eitri-luminus";
 import Logo from "../components/Logo";
 import { useEffect } from "react";
+import { getProducts } from "src/service/Products";
 
 export default function Home(props) {
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+  console.log("Log 1");
+
   useEffect(() => {
-    fetchData();
+    const fetchX = async () => {
+      await getProducts();
+
+    };
+    fetchX();
+  }, []);
+
+
+
+  useEffect(() => {
+    // fetchData();
   }, []);
 
   const fetchData = async () => {
     try {
-      const { data } = await Eitri.http.get(
+      const response = await Eitri.http.get(
         "https://calindra.tech/eitri/product_list.json"
       );
-      console.log(data);
+      console.log(response);
     } catch (error) {
       console.error("Erro ao consumir dados", error);
     }
@@ -78,6 +100,12 @@ export default function Home(props) {
           <Button
             className="btn btn-secondary w-full"
             onClick={() => navigateTo("/chapters/ChapterOne")}
+          >
+            Chapter 1
+          </Button>
+          <Button
+            className="btn btn-secondary w-full"
+            onClick={() => navigateTo("/Scripts/Scripts")}
           >
             Chapter 1
           </Button>
